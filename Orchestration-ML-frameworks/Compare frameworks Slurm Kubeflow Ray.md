@@ -1,6 +1,3 @@
-Below is the “bigger map” that puts **Slurm, Kubeflow, Ray** side-by-side with **Temporal** (durable workflow engine) and **LangGraph** (LLM/agent graph runtime). I’ll start with the big-picture roles, then give Azure-first reference patterns, and finally drop working Python-centric skeletons that show how these pieces actually hook together (Temporal ⇆ KubeRay ⇆ Kubeflow ⇆ Serve/Slurm, and where LangGraph fits).
-
----
 
 # 1) Architect’s view: who does what?
 
